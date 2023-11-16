@@ -1,0 +1,248 @@
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+}
+
+body{
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin: auto;
+}
+*{
+           
+            transition: all .2s linear;
+        }
+        .gallery{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: 0 auto;
+
+        }
+        .gallery a{
+            height: 250px;
+            width: 350px;
+            margin: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .gallery a img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+        }
+        .gallery a img:hover{
+            transform: scale(1.1);
+        }
+
+
+.descripcionPersonal{
+  text-align: left;
+}
+.encabezadoWeb{
+  margin-top: 90px;
+}
+.bg_negro {
+    margin-top: 10px;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+
+}
+.bg_demas {
+    z-index: 1;
+    width: 100%;
+    background:blue;
+}
+
+.negro{
+  background: blue;
+}
+.espacio{
+  margin-right: 20px;
+}
+.carouselPosicion {
+    margin-top: 56px;
+}
+
+.logo_nav{
+    height: 30px;
+
+}
+.link_tamaño{
+  margin-right: 40px;
+  color: white;
+  font-size: 12px;
+}
+.ultimaker{
+  height: auto;
+  margin-bottom: 15px;
+  background-color:#F9F9F9;
+  padding: 60px;
+}
+.fuse{
+  height: auto;
+  margin-bottom: 15px;
+  padding: 60px;
+  background-color: black;
+  color: white;
+}
+.columnaHacemos{
+  margin-top: 100px;
+}
+.columnaHacemos2{
+  margin-top: 40px;
+}
+.resina{
+  height: auto;
+  margin-bottom: 15px;
+  background-color:#E4F6FD;
+  padding: 60px;
+
+}
+.logoMakers{
+  width: 500px;
+}
+.fabricacionaditiva{
+  height: auto;
+  background-color:#F9F9F9;
+  padding: 5px;
+  padding-top: 110px;
+}
+.fabricacionresina{
+  height: auto;
+  background-color:#E4F6FD;
+  padding: 5px;
+  padding-top: 60px;
+}
+.instaSub{
+  margin-bottom: 80px;
+}
+.fabricacionPolvo{
+  height: auto;
+  background-color:black;
+  padding: 5px;
+  padding-top: 60px;
+  color: white;
+}
+.cajas{
+  padding: 100px;
+}
+.fabricacionTitulo{
+   font-size: 2.5rem;
+}
+.infoPersonal{
+  padding: 100px;
+
+}
+.logosFabUl{
+  margin-bottom: 90px;
+}
+.infoMakers{
+  padding: 120px;
+  background:black;
+  color: white;
+
+}
+.infoRedes{
+  padding: 160px;
+  background:white;
+  color: black;
+
+}
+.infoMakersBajo{
+
+}
+.infoHacemos{
+  padding: 120px;
+  background-image: url("https://www.ufv.es/wp-content/uploads/2022/10/Cabecera-fablab-maquinas-blancas.jpg?id=260532");
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+
+.ultimakerlogo{
+  width: 500px;
+  margin-bottom: 80px;
+}
+.logosImpresoras{
+  width: 350px;
+  margin-bottom: 30px;
+}
+h4{
+ 
+}
+h5{
+ 
+}
+svg{
+  margin-bottom: 30px;
+}
+.formulario{
+  color: black;
+  
+}
+.logosInfoFab{
+  margin-top: 30px;
+  margin-bottom: -60px;
+}
+.imagenDiv{
+  background-image: url("../images/chispas.jpg");
+  height: 500px;
+  width: 100%;
+}
+.tituloPagina{
+  z-index: 2;
+}
+.titulo{
+  margin-bottom: 20%;
+}
+.especificaciones{
+  border-right: 2px solid #000;
+}
+.divididas{
+  width: 49.3%;
+  height: auto;
+  margin-bottom: 20px;
+  background-color:#F9F9F9;
+  padding: 60px;
+}
+.divididasResina{
+  width: 49.3%;
+  height: auto;
+  margin-bottom: 20px;
+  background-color:#E4F6FD;
+  padding:60px;
+  padding-bottom: 10px;
+}
+.primero{
+  margin-right: 20px;
+}
+.myVideo{
+  width: 80%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.avatar {
+    background-image: url(../images/jose.jpeg);
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 270px;
+    width: 270px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+
+
+
